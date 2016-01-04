@@ -19,7 +19,7 @@ import com.uhoo.uhooapi.app.api.dto.OpResult;
 import com.uhoo.uhooapi.web.util.FileUploadUtil;
 
 
-
+//测试1
 @Controller
 @RequestMapping(value="/")
 public class CommonCtl extends AbstractCtl{
