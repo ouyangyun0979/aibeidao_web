@@ -24,7 +24,7 @@ import com.uhoo.uhooapi.web.util.FileUploadUtil;
 @RequestMapping(value="/")
 public class CommonCtl extends AbstractCtl{
 	
-	
+	//日志配置初始化
 	public final Logger logger = LoggerFactory.getLogger(CommonCtl.class);
 	
 	@RequestMapping(value="web/index",method={RequestMethod.GET,RequestMethod.POST})
