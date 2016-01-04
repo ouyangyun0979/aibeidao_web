@@ -1,0 +1,357 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>个人中心-爱贝岛官网</title>
+	<link href="../css/common.css" rel="stylesheet" />
+	<link href="../css/center.css" rel="stylesheet" />
+</head>
+
+<body>
+<div class="header cent-header">
+	<div class="topbar">
+		<div class="wraper clearfix">
+			<div class="top-right">
+				<ul>
+					<li><a href="#">登录</a></li>
+					<li><a href="#">免费注册</a></li>
+					<li><a href="#"><i class="i-qd"></i>签到</a></li>
+					<li><a href="#"><i class="i-cart"></i>购物车</a></li>
+					<li><a href="#">收藏夹</a></li>
+					<li><a href="#">我的账户</a></li>
+					<li><a href="#">帮助中心</a></li>
+				</ul>
+			</div>
+			<div class="top-left">
+				<ul>
+					<li>您好，欢迎来到爱贝岛</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="wraper clearfix">
+		<div class="logo"><a href="#"><img src="../images/logo.png" /></a></div>
+		<div class="search">
+			<input type="text" class="txt" /><input type="submit" class="sub" value="搜索" />
+		</div>
+	</div>
+	
+</div>
+
+<div class="layout cent-layout">
+	<div class="wraper cent-wraper clearfix">
+		<div class="cent-menu">
+        	<div class="uimg"><img src="../images/uhead-default.jpg" /></div>
+            <ul class="c-menu-list">
+            	<li><a href="orderlist.html">我的购物</a></li>
+                <li><a href="mytour.html">我的旅游</a></li>
+                <li><a href="favorite.html">收藏夹</a></li>
+                <li class="line"></li>
+                <li class="active"><a href="usercenter.html">我的账户</a></li>
+                <li><a href="userdata.html">个人资料</a></li>
+                <li><a href="safecenter.html">账户安全</a></li>
+                <li><a href="address.html">收货地址</a></li>
+            </ul>
+        </div>
+        <div class="cent-content">
+        	<div class="chead-bar">
+            	<h3 class="chead-title">我的账户</h3>
+            </div>
+            <div class="chead-con">
+            	<div class="btn-area">
+                	<a href="javascript:void(0);" class="btn btn-orange" onClick="showPopbox('addAddress')">新增收获地址</a>
+                </div>
+                <ul class="address-list">
+                	<li>
+                    	<h3>柳江湖徐家棚街道</h3>
+                        <table>
+                        	<tr>
+                            	<th width="70">收货人：</th><td>柳江湖</td>
+                            </tr>
+                            <tr>
+                            	<th>所在地区：</th><td>湖北省武汉市武昌区徐家棚街道</td>
+                            </tr>
+                            <tr>
+                            	<th>地址：</th><td>芭莎公馆2单元2105</td>
+                            </tr>
+                            <tr>
+                            	<th>手机：</th><td>18707133663</td>
+                            </tr>
+                            <tr>
+                            	<th>固定电话：</th><td></td>
+                            </tr>
+                            <tr>
+                            	<th>邮编：</th><td>435000</td>
+                            </tr>
+                        </table>
+                        <a href="javascript:void(0);" class="del" onClick="delAddress(this)"></a>
+                        <dl class="link-list">
+                        	<dd><span class="btn active">默认地址</span></dd>
+                            <dd><a href="javascript:void(0);" class="btn btn-orange">编辑</a></dd>
+                        </dl>
+                    </li>
+                    <li>
+                    	<h3>柳江湖徐家棚街道</h3>
+                        <table>
+                        	<tr>
+                            	<th width="70">收货人：</th><td>柳江湖</td>
+                            </tr>
+                            <tr>
+                            	<th>所在地区：</th><td>湖北省武汉市武昌区徐家棚街道</td>
+                            </tr>
+                            <tr>
+                            	<th>地址：</th><td>芭莎公馆2单元2105</td>
+                            </tr>
+                            <tr>
+                            	<th>手机：</th><td>18707133663</td>
+                            </tr>
+                            <tr>
+                            	<th>固定电话：</th><td></td>
+                            </tr>
+                            <tr>
+                            	<th>邮编：</th><td>435000</td>
+                            </tr>
+                        </table>
+                        <a href="javascript:void(0);" class="del" onClick="delAddress(this)"></a>
+                        <dl class="link-list">
+                        	<dd><a href="javascript:void(0);" onClick="showPopbox('setMo')" class="btn btn-blue">设为默认</a></dd>
+                            <dd><a href="javascript:void(0);" class="btn btn-orange">编辑</a></dd>
+                        </dl>
+                    </li>
+                    <li>
+                    	<h3>柳江湖徐家棚街道</h3>
+                        <table>
+                        	<tr>
+                            	<th width="70">收货人：</th><td>柳江湖</td>
+                            </tr>
+                            <tr>
+                            	<th>所在地区：</th><td>湖北省武汉市武昌区徐家棚街道</td>
+                            </tr>
+                            <tr>
+                            	<th>地址：</th><td>芭莎公馆2单元2105</td>
+                            </tr>
+                            <tr>
+                            	<th>手机：</th><td>18707133663</td>
+                            </tr>
+                            <tr>
+                            	<th>固定电话：</th><td></td>
+                            </tr>
+                            <tr>
+                            	<th>邮编：</th><td>435000</td>
+                            </tr>
+                        </table>
+                        <a href="javascript:void(0);" class="del" onClick="delAddress(this)"></a>
+                        <dl class="link-list">
+                        	<dd><a href="javascript:void(0);" onClick="showPopbox('setMo')" class="btn btn-blue">设为默认</a></dd>
+                            <dd><a href="#" class="btn btn-orange">编辑</a></dd>
+                        </dl>
+                    </li>
+                </ul>
+            </div>
+        </div>
+	</div>
+	<div class="wraper">
+		<div class="brand-section clearfix">
+			<div class="tit"><h3>品牌专区</h3></div>
+			<div class="det">
+				<div class="brand-slide">
+					<div class="brand-slide-item">
+						<a href="#" class="vertical-img">
+							<span class="box-img">
+							<img src="../images/demo/friend_logo.jpg" />
+							</span>
+						</a>
+					</div>
+					<div class="brand-slide-item">
+						<a href="#" class="vertical-img">
+							<span class="box-img">
+							<img src="../images/demo/friend_logo.jpg" />
+							</span>
+						</a>
+					</div>
+					<div class="brand-slide-item">
+						<a href="#" class="vertical-img">
+							<span class="box-img">
+							<img src="../images/demo/friend_logo.jpg" />
+							</span>
+						</a>
+					</div>
+					<div class="brand-slide-item">
+						<a href="#" class="vertical-img">
+							<span class="box-img">
+							<img src="../images/demo/friend_logo.jpg" />
+							</span>
+						</a>
+					</div>
+					<div class="brand-slide-item">
+						<a href="#" class="vertical-img">
+							<span class="box-img">
+							<img src="../images/demo/friend_logo.jpg" />
+							</span>
+						</a>
+					</div>
+					<div class="brand-slide-item">
+						<a href="#" class="vertical-img">
+							<span class="box-img">
+							<img src="../images/demo/friend_logo.jpg" />
+							</span>
+						</a>
+					</div>
+					<div class="brand-slide-item">
+						<a href="#" class="vertical-img">
+							<span class="box-img">
+							<img src="../images/demo/friend_logo.jpg" />
+							</span>
+						</a>
+					</div>
+					<div class="brand-slide-item">
+						<a href="#" class="vertical-img">
+							<span class="box-img">
+							<img src="../images/demo/friend_logo.jpg" />
+							</span>
+						</a>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="footer">
+	<div class="wraper clearfix">
+		<div class="footer-menu clearfix">
+			<div class="menu-item">
+				<h4><a href="#">使用帮助</a></h4>
+				<ul>
+					<li><a href="#">会员等级</a></li>
+					<li><a href="#">会员积分</a></li>
+					<li><a href="#">常见问题</a></li>
+					<li><a href="#">帮助中心</a></li>
+				</ul>
+			</div>
+			<div class="menu-item">
+				<h4><a href="#">支付方式</a></h4>
+				<ul>
+					<li><a href="#">在线支付</a></li>
+					<li><a href="#">代金券支付</a></li>
+				</ul>
+			</div>
+			<div class="menu-item">
+				<h4><a href="#">配送方式</a></h4>
+				<ul>
+					<li><a href="#">包邮政策</a></li>
+					<li><a href="#">配送说明</a></li>
+					<li><a href="#">发货时间</a></li>
+					<li><a href="#">验货签收</a></li>
+				</ul>
+			</div>
+			<div class="menu-item">
+				<h4><a href="#">售后服务</a></h4>
+				<ul>
+					<li><a href="#">正品承诺</a></li>
+					<li><a href="#">售后咨询</a></li>
+					<li><a href="#">退货政策</a></li>
+					<li><a href="#">退货流程</a></li>
+					<li><a href="#">退款方式</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer-qcode"><img src="../images/demo/qr.png" /></div>
+		<div class="footer-tel">
+			<h4 class="tel-tit">全国免费咨询热线：</h4>
+			<h3 class="tel-txt">400-678-0481</h3>
+			<p class="tel-icon" align="center">
+				<img src="../images/telphone.png" />
+			</p>
+		</div>
+	</div>
+	
+</div>
+<div class="wraper clearfix">
+	<div class="footer-nav">
+		<a href="#">关于爱贝岛</a>|<a href="#">商务合作</a>|<a href="#">联系我们</a>|<a href="#">帮助中心</a>|<a href="#">媒体报道</a>|
+	</div>
+	<div class="footer-info">
+		<p>Copyright &copy; 2015  爱贝岛</p>
+	</div>
+</div>
+
+<!--新增收货地址弹窗-->
+<div class="popbox" id="addAddress">
+	<div class="head">
+    	<a href="javascript:void(0);" class="close" title="关闭" onClick="closePopbox('addAddress')"></a>
+        <h3 class="title">添加收货地址</h3>
+    </div>
+    <div class="body">
+    	<div class="address-form">
+        	<div class="row">
+            	<label><em>*</em>收货人：</label>
+                <input type="text" />
+            </div>
+            <div class="row">
+            	<label><em>*</em>所在地区：</label>
+                <select><option>请选择</option><option>湖北</option></select>
+                <select><option>请选择</option><option>武汉</option></select>
+                <select><option>请选择</option><option>黄石</option></select>
+            </div>
+            <div class="row">
+            	<label><em>*</em>详细地址：</label>
+                <input type="text" style="width:446px" />
+            </div>
+            <div class="row">
+            	<div class="field1">
+                    <label><em>*</em>收货人：</label>
+                    <input type="text" />
+                </div>
+                <div class="field2">
+                    <span>或</span>
+                </div>
+                <div class="field1">
+                    <label><em>*</em>收货人：</label>
+                    <input type="text" />
+                </div>
+            </div>
+            <div class="row">
+            	<label>邮编：</label>
+                <input type="text" />
+            </div>
+            
+        </div>
+    </div>
+    <div class="foot">
+        <div class="btn-area">
+            <a href="javascript:void(0);" class="btn btn-blue">保存收货地址</a><span class="msg error">收货人不能为空</span>
+        </div>
+    </div>
+</div>
+<!--默认地址确认弹窗-->
+<div class="popbox" id="setMo">
+	<div class="head">
+    	<a href="javascript:void(0);" class="close" title="关闭" onClick="closePopbox('setMo')"></a>
+        <h3 class="title">设置默认地址</h3>
+    </div>
+    <div class="body text-center">
+    	<p class="">设为默认地址吗？</p>
+        
+    </div>
+    <div class="foot">
+    	<div class="btn-area text-center">
+        	<a href="javascript:void(0);" class="btn btn-orange" onClick="closePopbox('setMo')">确认</a>
+            <a href="javascript:void(0);" class="btn" onClick="closePopbox('setMo')">取消</a>
+        </div>
+    </div>
+</div>
+
+<script src="../js/jquery.min.js" type="text/javascript"></script>
+<script src="../js/owl.carousel.js" type="text/javascript"></script>
+<script src="../js/common.js" type="text/javascript"></script>
+<script>
+function delAddress(obj){
+	$(obj).parent().animate({'opacity':'0','height':'0','margin-bottom':'0'},500,function(){
+		$(obj).parent().remove();
+	});
+}
+</script>
+</body>
+</html>
