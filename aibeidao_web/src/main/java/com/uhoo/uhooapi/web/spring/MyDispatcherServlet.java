@@ -33,7 +33,7 @@ public class MyDispatcherServlet extends DispatcherServlet{
 		
 		logger.info("uhoo web init.");
 		logger.info("uhoo web load config start.");
-		File sysconfig = new File("config/newlyc.properties");
+		File sysconfig = new File("config/db.properties");
 		logger.info("uhoo load config from {}",sysconfig.getAbsolutePath());
 		Properties prop = new Properties();
 		InputStreamReader is = null;

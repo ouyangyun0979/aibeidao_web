@@ -39,3 +39,41 @@ function showRegist(){
 	$('#login').hide();
 	$('#regist').show();
 }
+
+function registerSubmit(){
+	var username=$("#username").val();
+	var phone=$("#phone").val();
+	var password=$("#password").val();
+	var repassword=$("#repassword").val();
+	//alert(password+":"+repassword);
+	if(username==''){
+		$("#errorNtc").html("用户名不能为空").show();
+		return false;
+	}
+	if(phone==''){
+		$("#errorNtc").html("手机号码不能为空").show();
+		return false;
+	}
+	if(password==''){
+		$("#errorNtc").html("密码不能为空").show();
+		return false;
+	}else if(password!=repassword){
+		$("#errorNtc").html("两次密码不一致").show();
+		return false;
+	}
+	$("#registerForm").submit();
+}
+function submitLogin(){
+	var login_username=$("#login_username").val();
+	var login_password=$("#login_password").val();
+	if(login_username==''){
+		$("#errorLoginNtc").html("用户名不能为空").show();
+		return false;
+	}
+	if(login_password==''){
+		$("#errorLoginNtc").html("密码不能为空").show();
+		return false;
+	}
+	$("#loginForm").submit();
+}
+

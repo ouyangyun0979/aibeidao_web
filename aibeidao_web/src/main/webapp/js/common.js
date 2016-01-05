@@ -1,6 +1,18 @@
+var REG_MAIL = /^([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+@([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+\.[a-zA-Z]{2,3}$/;
+var REG_MPHONE = /^(?:13\d|15[89])-?\d{5}(\d{3}|\*{3})$/;
+var REG_PASSWORD = /^(\w){6,20}$/;
+var REG_USERNAME = /^[\s\u4e00-\u9fa5_a-zA-Z0-9_]{1,20}$/;
+var REG_USERNAME1 = /^[\sa-zA-Z0-9_]{1,20}$/;
+var REG_ADDRESSNAME = /^[\s\u4e00-\u9fa5_a-zA-Z0-9_]{2,25}$/;
+var REG_PHONE_NUM = /^([0-9]){11}$/;
+var REG_NUMBER=/^[0-9]{1,10}(.[0-9]{1,3})?$/;
+var REG_IDCARD=/(^\d{15}$)|(^\d{18}$)|(^\d{17}(\d|X|x)$)/;
+var REG_INTNUMBER=/^[0-9]{1,10}?$/;
+var REG_VERSIONNO=/^\d+(\.\d+)?(\.\d+)?$/;
+var REG_BANK_ACCOUNT=/^\d+$/;
+var basePath=$("base").attr("href");
+
 $(function(){
-	
-	
 	//大图轮播
 	$('.slide-banners').owlCarousel({
 		autoplay:true,
@@ -47,7 +59,6 @@ $(function(){
 //顶部左侧菜单
 silderbar("#ul-cont li", "#menuCon .sub-pannel");
 /*
- *
  * 鍒ゆ柇IE鐗堟湰鏂规硶
  * return   myBrowser()=="IE7" myBrowser()=="IE8"
  *
